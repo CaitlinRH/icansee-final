@@ -1,0 +1,138 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  @font-face {
+    font-family: "Poppins-Bold";
+    src: url(Poppins-Bold.otf);
+}
+* {
+font-family: "Poppins-Bold";
+}
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url(Poppins-Medium.otf);
+}
+* {
+font-family: "Poppins-Medium";
+}
+
+.bg {
+    background-image: url(background.jpg); 
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow: scroll;
+    resize: both;
+
+}
+
+label{
+    width: 100%;
+    font-family: Poppins-Medium;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+input{ 
+    width: 100%;
+    height: 45px;
+   
+    
+}
+
+h1{
+    font-family: Poppins-Bold;
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 3px;
+}
+
+a{
+    color: #009AD9;
+    text-decoration: underline;
+    font-size: 14px;
+    
+}
+
+.loginfun{
+    background-color: #67CD31;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.loginfun:hover{
+    background-color: grey;
+}
+
+.login{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 45px;
+    
+}
+.card{
+    border-radius: 8px; 
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: 450px;
+    left: 50%;
+    width: 300px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: white;
+}
+.logo{
+text-align: center;
+position: relative;
+top: 200px;
+-ms-transform: translate(0%, 0%);
+transform: translate(0%, 0%);
+
+}
+
+.container {
+    padding: 5px;
+  }
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 45px;
+  }
+
+.signupbtn{
+
+    background-color:#67CD31 ;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+
+}
+.signupbtn:hover{
+    background-color: grey;
+}
+
